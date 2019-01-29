@@ -22,7 +22,7 @@ We see that the highest correlation is between the distance and the fare amount,
 Now we plot the scatter figure of each pair of features to visualize the correlation values. Here, for the time of the day feature, we will make it finer (to minutes) by interpolating the middle points. 
 
 <p align="center">
- <img src="../master/illustrations/pic1.jpg">  
+ <img src="../master/illustrations/pic1.JPG">  
 </p> 
 
 Apparently , we find quite a linear relationship between the distance and fare amount feature. For the other two correlations, although that we don't see a linear relationship, but we still find a relationship between the two variables. Indeed, the plots show that the time of day does affect the distance as well as the fare amount. To be particular , in the time between 12am - 7am, there is a decrease in both distance and fare amount. This can be explained intuitively by the fact that people are sleeping at the time. Therefore, we should take the feature of time of day into consideration when predicting fare amount. Besides, we also find out that, the fare price in the morning and at night are different, according to this site https://www1.nyc.gov/nycresources/service/1271/yellow-taxi-fares(https://www1.nyc.gov/nyc-resources/service/1271/yellow-taxifares).
@@ -39,12 +39,12 @@ rides which shows a dense points cloud on the map at the JFK location.
 ### Relationship between year and fare amount
 Playing around, I also find one interesting thing about the relationship between the fare amount and the year the rides happened. The figure below illustrates this observation. We find that the prices increase over time. Indeed there is a drastically increase in fare amount before and after the year of 2012. There seems to be a change in policy of taxi companies around this point of time. 
 <p align="center">
- <img src="../master/illustrations/pic3.jpg">  
+ <img src="../master/illustrations/pic3.JPG">  
 </p> 
 ### Relationship between ride direction and fare amount
 Another interesting I found out is that the relationship between direction of rides (in terms of angles) and the fare amount. The code below implements a function for calculating the angles. Following is a plot of the direction against fare amount. We see that there are many rides running at about 55 and -55 degrees. My guess is this is the main street direction of Manhattan, and therefore the road is usually much longer, hence the higher taxi fare. We can use this clue to predict the fare price. Furthermore, rides on these directions (~55 and -55 degrees) have the most correct distance computation because they just go straight. This added information might help the model learn better .
 <p align="center">
- <img src="../master/illustrations/pic4.jpg">  
+ <img src="../master/illustrations/pic4.JPG">  
 </p> 
 
 ## Building model
