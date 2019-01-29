@@ -51,6 +51,6 @@ Another interesting I found out is that the relationship between direction of ri
 According to our observations in quesiton 4, we find there are ralationships between the year, time of day the ride occurs, the direction and the fare. Therefore, we will include them into the selected features set. Other features we will use are "distance", and "number of passengers". The "distance" feature seems obvious enough to be included in the features set. For the "number of passengers" feature, although we have not seen an obvious relationship with the fare amount now. However , it might be a latent relationship (maybe
 through some transformations). Therefore, we will still include it in the feature set. In conclusion, the set of features we will use for model is: 
 <p align="center">
- <i>[year , time of day , distance, number of passengers, direction]<\i>
+ <i>[year , time of day , distance, number of passengers, direction]
 </p> 
   
