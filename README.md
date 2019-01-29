@@ -39,7 +39,7 @@ rides which shows a dense points cloud on the map at the JFK location.
 ### Relationship between year and fare amount
 Playing around, I also find one interesting thing about the relationship between the fare amount and the year the rides happened. The figure below illustrates this observation. We find that the prices increase over time. Indeed there is a drastically increase in fare amount before and after the year of 2012. There seems to be a change in policy of taxi companies around this point of time. 
 <p align="center">
- <img src="../master/illustrations/pic3.JPG">  
+ <img width="200" src="../master/illustrations/pic3.JPG">  
 </p> 
 ### Relationship between ride direction and fare amount
 Another interesting I found out is that the relationship between direction of rides (in terms of angles) and the fare amount. The code below implements a function for calculating the angles. Following is a plot of the direction against fare amount. We see that there are many rides running at about 55 and -55 degrees. My guess is this is the main street direction of Manhattan, and therefore the road is usually much longer, hence the higher taxi fare. We can use this clue to predict the fare price. Furthermore, rides on these directions (~55 and -55 degrees) have the most correct distance computation because they just go straight. This added information might help the model learn better .
