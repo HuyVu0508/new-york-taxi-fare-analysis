@@ -1,7 +1,7 @@
 # New York Taxi Fare Analysis
 
 ## Introduction
-This project is based on the ![New York Taxi Fare Prediction](https://www.kaggle.com/c/new-york-city-taxi-fare-prediction) Kaggle challenge, revolving around predicting the fare of a taxi ride given a pickup and a drop off location. We are to explore the data and uncover interesting observations about the New York Taxi operations.
+This project is based on the New York Taxi Fare Analysis Kaggle challenge, revolving around predicting the fare of a taxi ride given a pickup and a drop off location. We are to explore the data and uncover interesting observations about the New York Taxi operations.
 
 ## Preprocessing
 Looking at the description of the training dataset, we find many anomalities data points. They include: 
